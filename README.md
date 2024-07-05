@@ -90,5 +90,5 @@ This LaTeX code will render the formula neatl
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/mailjavvad/lift-calculation-simulation.git
-   cd lift-calculation-simulation
+   git clone https://github.com/mailjavvad/lift-simulation.git
+   cd lift-simulation
