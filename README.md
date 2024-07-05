@@ -3,8 +3,7 @@
 This project simulates the calculation of lift force on an airfoil based on uncertain parameters such as temperature, pressure, and relative humidity. Monte Carlo simulation is used to propagate uncertainties through the model.
 # Four Defined functions
 1. Normally distributed random number generator
-2. Calculate air Density \( \rho \)
-he air density \( \rho \) is calculated using the following formula:
+2. Calculate air Density $\rho$ using the following formula:
 
 $$
 \rho = \frac{P_d}{R_d T_k} + \frac{e}{R_v T_k}
@@ -18,8 +17,7 @@ where:
 - \( R_v \) is the specific gas constant for water vapor, and (constant input)
 - \( T_k \) is the temperature in Kelvin. \(T_c+273\) \(T_crandomly generated input\)
 
-3. Calculate air Speed \( V \)
-The airspeed \( V \) is calculated using the following formula:
+3. Calculate air Speed \( V \) using the following formula:
 
 $$
 V = \sqrt{\frac{2 \cdot (P_t - P_s)}{\rho}}
@@ -31,8 +29,7 @@ where:
 - \( P_s \) is the static pressure, (randomly generated input)
 -  $\rho$  is the air density.
    
-4. Calculate lift \( L \)
-The lift force \( L \) is calculated using the following formula:
+4. Calculate lift \( L \) using the following formula:
 
 $$
 L = 0.5 \cdot \rho \cdot V^2 \cdot A_{\text{wing}} \cdot C_L
