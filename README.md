@@ -2,7 +2,7 @@
 
 This project simulates the calculation of lift force on an airfoil based on uncertain parameters such as temperature, pressure, and relative humidity. Monte Carlo simulation is used to propagate uncertainties through the model.
 # Four Defined functions
-1. Normally distributed random number generator
+1. Normally distributed random number generator using 
 2. Calculate air Density $\rho$ using the following formula:
 
 $$
@@ -81,9 +81,10 @@ where:
    - **Standard Deviation**: 0.05
    - **Values in C Program**: `CL_mean = 1.2; CL_stddev = 0.05;`
 ### References
-1. https://aviex.goflexair.com/blog/density-of-air-air-density
-2. https://en.wikipedia.org/wiki/Vapour_pressure_of_water#:~:text=The%20saturation%20vapor%20pressure%20is,it%20would%20evaporate%20or%20sublimate
-3. https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/pitot.html
+1. https://en.wikipedia.org/wiki/Marsaglia_polar_method#Implementation
+2. https://aviex.goflexair.com/blog/density-of-air-air-density
+3. https://en.wikipedia.org/wiki/Vapour_pressure_of_water#:~:text=The%20saturation%20vapor%20pressure%20is,it%20would%20evaporate%20or%20sublimate
+4. https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/pitot.html
 ## Usage
 
 1. **Clone the repository**:
