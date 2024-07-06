@@ -2,7 +2,7 @@
 
 This project simulates the calculation of lift force on an airfoil based on uncertain parameters such as temperature, pressure, and relative humidity. Monte Carlo simulation is used to propagate uncertainties through the model.
 # Four Defined functions
-1. Normally distributed random number generator using 
+1. Normally distributed random number generator using Marsaglia polar method
 2. Calculate air Density $\rho$ using the following formula:
 
 $$
