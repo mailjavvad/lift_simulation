@@ -30,6 +30,8 @@ where:
 -  $\rho$  is the air density.
    
 4. Calculate lift \( L \) using the following formula:
+### Output variable
+
 
 $$
 L = 0.5 \cdot \rho \cdot V^2 \cdot A_{\text{wing}} \cdot C_L
